@@ -1,0 +1,36 @@
+
+.login-start{
+    width: 30%;
+    margin: auto;
+    margin-top: 30px;
+}
+.login-form{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.login-button{
+    width: 30%;
+    margin-left: 40%;
+}
+
+
+@media only screen and (max-width: 992px){
+    .login-start{
+        width: 50%;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    .login-start{
+        width: 70%;
+    }
+
+}
+
+@media only screen and (max-width: 415px){
+    .login-start{
+        width: 90%;
+    }
+
+}
